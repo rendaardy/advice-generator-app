@@ -100,4 +100,10 @@
   button:hover {
     box-shadow: 0 0 2.4rem 0.6rem hsl(var(--color-primary-2));
   }
+
+  @media (max-width: 41.25em) {
+    figure {
+      width: 100%;
+    }
+  }
 </style>
